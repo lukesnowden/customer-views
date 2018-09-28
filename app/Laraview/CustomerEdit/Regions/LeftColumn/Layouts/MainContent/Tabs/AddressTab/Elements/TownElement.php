@@ -1,24 +1,24 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\AddressTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
 use Laraview\Libs\Elements\Text;
 
-class CountyElement extends Text implements ElementBlueprint
+class TownElement extends Text implements ElementBlueprint
 {
 
     /**
      * Name of input
      * @var string
      */
-    protected $name = 'county';
+    protected $name = 'town';
 
     /**
      * Label text
      * @var string
      */
-    protected $label = 'County';
+    protected $label = 'Town';
 
     /**
      * Input elements HTML attributes

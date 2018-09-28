@@ -1,31 +1,31 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\GeneralTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
-use Laraview\Libs\Elements\Text;
+use Laraview\Libs\Elements\Textarea;
 
-class AddressLine2Element extends Text implements ElementBlueprint
+class DescriptionElement extends Textarea implements ElementBlueprint
 {
 
     /**
      * Name of input
      * @var string
      */
-    protected $name = 'address_line_2';
+    protected $name = 'description';
 
     /**
      * Label text
      * @var string
      */
-    protected $label = 'Address Line 2';
+    protected $label = 'Description';
 
     /**
      * Input elements HTML attributes
      * @var array
      */
     protected $attributes = [
-        
+        'rows' => 7
     ];
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\GeneralTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
 use Laraview\Libs\Elements\Email;

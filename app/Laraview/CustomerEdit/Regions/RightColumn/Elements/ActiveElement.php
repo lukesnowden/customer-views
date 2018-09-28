@@ -18,7 +18,7 @@ class ActiveElement extends Checkbox implements ElementBlueprint
      * Label text
      * @var string
      */
-    protected $label = 'Active?';
+    protected $label = 'Active';
 
     /**
      * Input elements HTML attributes
@@ -38,10 +38,12 @@ class ActiveElement extends Checkbox implements ElementBlueprint
     }
 
     /**
+     * Determines if the element is checked or not
      * @return bool
      */
     public function status()
     {
-        // TODO: Implement status() method.
+        return false;
     }
+
 }

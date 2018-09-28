@@ -1,24 +1,24 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\AutherisationTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
-use Laraview\Libs\Elements\Text;
+use Laraview\Libs\Elements\Password;
 
-class AddressLine1Element extends Text implements ElementBlueprint
+class PasswordElement extends Password implements ElementBlueprint
 {
 
     /**
      * Name of input
      * @var string
      */
-    protected $name = 'address_line_1';
+    protected $name = 'password';
 
     /**
      * Label text
      * @var string
      */
-    protected $label = 'Address Line 1';
+    protected $label = 'Password';
 
     /**
      * Input elements HTML attributes

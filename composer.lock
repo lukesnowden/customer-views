@@ -747,12 +747,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lukesnowden/laraview.git",
-                "reference": "73f977bd5fe9eb4f5464addc6570833e6feb5415"
+                "reference": "cea8d437f39d120f2db37fa42ec69edc03e7dece"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lukesnowden/laraview/zipball/73f977bd5fe9eb4f5464addc6570833e6feb5415",
-                "reference": "73f977bd5fe9eb4f5464addc6570833e6feb5415",
+                "url": "https://api.github.com/repos/lukesnowden/laraview/zipball/cea8d437f39d120f2db37fa42ec69edc03e7dece",
+                "reference": "cea8d437f39d120f2db37fa42ec69edc03e7dece",
                 "shasum": ""
             },
             "require": {
@@ -794,7 +794,7 @@
                 "laravel",
                 "views"
             ],
-            "time": "2018-09-27T14:36:13+00:00"
+            "time": "2018-09-28T15:48:39+00:00"
         },
         {
             "name": "monolog/monolog",

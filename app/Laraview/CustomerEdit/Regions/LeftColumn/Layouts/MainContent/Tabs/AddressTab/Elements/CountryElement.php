@@ -1,22 +1,22 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\AddressTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
 use Laraview\Libs\Elements\Select;
 
-class TitleElement extends Select implements ElementBlueprint
+class CountryElement extends Select implements ElementBlueprint
 {
 
     /**
      * @var string
      */
-    protected $name = 'title';
+    protected $name = 'country';
 
     /**
      * @var string
      */
-    protected $label = 'Title';
+    protected $label = 'Country';
 
     /**
      * Element attributes
@@ -31,11 +31,7 @@ class TitleElement extends Select implements ElementBlueprint
      * @var array
      */
     protected $options = [
-        'mr' => 'Mr',
-		'mrs' => 'Mrs',
-		'ms' => 'Ms',
-		'miss' => 'Miss',
-		'lord' => 'Lord',
+        'United Kingdom' => 'United Kingdom',
     ];
 
     /**

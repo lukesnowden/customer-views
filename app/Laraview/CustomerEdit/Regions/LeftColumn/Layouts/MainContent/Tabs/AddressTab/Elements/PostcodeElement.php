@@ -1,24 +1,24 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\AddressTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
-use Laraview\Libs\Elements\Password;
+use Laraview\Libs\Elements\Text;
 
-class PasswordElement extends Password implements ElementBlueprint
+class PostcodeElement extends Text implements ElementBlueprint
 {
 
     /**
      * Name of input
      * @var string
      */
-    protected $name = 'password';
+    protected $name = 'postcode';
 
     /**
      * Label text
      * @var string
      */
-    protected $label = 'Password';
+    protected $label = 'Postcode';
 
     /**
      * Input elements HTML attributes

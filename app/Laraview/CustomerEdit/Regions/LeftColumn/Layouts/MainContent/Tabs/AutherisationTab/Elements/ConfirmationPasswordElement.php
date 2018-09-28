@@ -1,18 +1,18 @@
 <?php
 
-namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Elements;
+namespace CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContent\Tabs\AutherisationTab\Elements;
 
 use Laraview\Libs\Blueprints\ElementBlueprint;
 use Laraview\Libs\Elements\Password;
 
-class PasswordConfirmationElement extends Password implements ElementBlueprint
+class ConfirmationPasswordElement extends Password implements ElementBlueprint
 {
 
     /**
      * Name of input
      * @var string
      */
-    protected $name = 'password_confirmation';
+    protected $name = 'confirmation_password';
 
     /**
      * Label text

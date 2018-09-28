@@ -19,7 +19,7 @@ class LeftColumnRegion extends BaseRegion implements RegionBlueprint
      * @var array
      */
     protected $elements = [
-        \CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainLeftContentTabs::class
+		\CustomerViews\Laraview\CustomerEdit\Regions\LeftColumn\Layouts\MainContentTabs::class
 	];
 
 }
